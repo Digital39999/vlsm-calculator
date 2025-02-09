@@ -1,0 +1,16 @@
+{
+    "name": "VLSM Calculator",
+    "short_name": "VLSM",
+    "description": "VLSM Calculator for Network Engineering to calculate IP Address and Subnet Masks.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#accd41",
+    "theme_color": "#accd41",
+    "icons": [
+        {
+            "src": "/logo.webp",
+            "sizes": "256x256",
+            "type": "image/webp"
+        }
+    ]
+}
