@@ -46,7 +46,7 @@ body {
 		--chart-5: 27 87% 67%;
 	}
 
-	.dark {
+	:root[class~='dark'] {
 		/* Zinc Dark Variables */
 		--background: 240 10% 3.9%;
 		--foreground: 0 0% 98%;
