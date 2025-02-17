@@ -63,6 +63,8 @@ export const networkColumns: ColumnDef<Jsonify<Host>>[] = [{
 			<span className='capitalize'>{row.original.bits}</span>
 		</div>
 	),
+	enableHiding: false,
+	enableSorting: false,
 }, {
 	accessorKey: 'networkAddress',
 	header: ({ column }) => (
