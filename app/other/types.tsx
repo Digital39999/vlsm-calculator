@@ -6,6 +6,7 @@ export type Network = z.infer<typeof ZodNetwork>;
 
 export type Host = {
 	name: string;
+	bits: number;
 
 	hostsNeeded: number;
 	hostsAvailable: number;

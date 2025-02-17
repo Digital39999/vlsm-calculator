@@ -54,6 +54,16 @@ export const networkColumns: ColumnDef<Jsonify<Host>>[] = [{
 	enableHiding: false,
 	enableSorting: false,
 }, {
+	accessorKey: 'bits',
+	header: ({ column }) => (
+		<DataTableColumnHeader column={column} title='Bits' />
+	),
+	cell: ({ row }) => (
+		<div className='flex w-[40px] items-center'>
+			<span className='capitalize'>{row.original.bits}</span>
+		</div>
+	),
+}, {
 	accessorKey: 'networkAddress',
 	header: ({ column }) => (
 		<DataTableColumnHeader column={column} title='Network' />

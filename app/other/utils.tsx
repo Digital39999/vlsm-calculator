@@ -89,6 +89,8 @@ export function calculateSubnets(network: Network): Host[] {
 
 		results.push({
 			name: device.name,
+			bits: 32 - subnetSlash,
+
 			hostsNeeded: device.hosts,
 			hostsAvailable,
 			unusedHosts: hostsAvailable - device.hosts,
